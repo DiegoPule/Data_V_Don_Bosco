@@ -1,0 +1,87 @@
+1. Lista detallada de documentos electorales que deben imprimirse
+
+Según la tabla del contrato (página 5), el Instituto Geográfico Militar debe imprimir los siguientes documentos electorales para la elección del cantón Sevilla Don Bosco. 
+
+O REGIMEN ESPECIAL DOCUMENTOS E…
+
+Documentos electorales
+Documento	Tamaño	Papel	Cantidad aproximada
+Listado de materiales	A4	Bond blanco 90 g	67
+Padrón electoral	A4	Bond blanco 90 g	1.716
+Certificados de votación	A4	Bond blanco 90 g	12.200
+Certificado de presentación	A4	Bond blanco 90 g	132
+Certificados de votación FFAA y Policía en servicio activo	A4	Bond blanco 90 g	33
+Actas de instalación (T1 y C1)	A4	Bond blanco 90 g	142
+Actas de instalación (simulacro)	A4	Bond blanco 90 g	66
+Actas de instalación para conocimiento	A3	Bond blanco 90 g	66
+Borrador de escrutinio digital	A3	Bond blanco 90 g	132
+Actas de escrutinio generales (T1, T2 y P1)	A4	Seguridad bitonal 90 g	528
+Actas de escrutinio (simulacro)	A4	Bond blanco 90 g	264
+Acta de escrutinio para conocimiento público	A4	Papel químico 75 g	1.320
+Formulario de recibo	A4	Bond blanco 90 g	66
+Flujograma de material electoral	A3	Bond blanco 90 g	66
+Identificación de sobres electorales	A4	Adhesivo blanco 150 g	400
+Identificación de sobres electorales	A3	Adhesivo blanco 150 g	200
+Credenciales para votar FFAA y Policía	A4	Adhesivo blanco 150 g	150
+Total aproximado de documentos
+
+17.548 documentos impresos. 
+
+O REGIMEN ESPECIAL DOCUMENTOS E…
+
+Qué significa cada uno (explicación breve para tu jefa)
+
+Padrón electoral
+Lista de votantes por junta receptora del voto.
+
+Certificados de votación
+Documento que prueba que el ciudadano votó.
+
+Certificado de presentación
+Para quienes se presentan pero no votan por alguna causa.
+
+Actas de instalación
+Documento que registra la apertura de la mesa electoral.
+
+Actas de escrutinio
+Documento oficial donde se registran los resultados de votos.
+
+Actas de conocimiento público
+Copia visible del resultado para el público.
+
+Borradores de escrutinio
+Documento de trabajo para conteo preliminar.
+
+Formularios de recibo
+Control de entrega de material electoral.
+
+Flujograma electoral
+Instrucciones de proceso para miembros de mesa.
+
+Identificación de sobres electorales
+Etiquetas de seguridad para sobres con votos.
+
+Credenciales de votación FFAA y Policía
+Permite votar a personal en servicio activo.
+
+2. Lo que probablemente hace tu aplicación Java
+
+Tu aplicación probablemente hace algo como:
+
+generar los archivos para impresión
+
+controlar numeración
+
+generar reportes
+
+organizar paquetes de documentos
+
+validar cantidades
+
+producir layouts para imprenta
+
+Es decir, tu software seguramente funciona como un generador de documentos electorales.
+
+Por eso el nombre del proyecto que mostraste:
+
+GeneradorSDBosco

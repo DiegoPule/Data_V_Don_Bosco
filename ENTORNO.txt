@@ -1,0 +1,5 @@
+IDE: NetBeans 21
+JDK: Java 
+Base de datos: Oracle 11g
+Servidor: Windows 10
+Driver JDBC: ojdbc6.jar

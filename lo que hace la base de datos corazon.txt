@@ -1,0 +1,66 @@
+¿Qué es este sistema?
+Es un sistema de gestión electoral — específicamente para el Colegio Nacional Electoral Don Bosco (CNE). El nombre del esquema CNEDONBOSCO25.
+
+La arquitectura del negocio en sus tablas
+Padrón y candidatos:
+
+T_PADRON — el padrón electoral, lista de votantes
+T_CANDIDATO — candidatos registrados
+T_DIGNIDAD — dignidades o cargos a elegir (rector, vicerrector, etc.)
+T_DIGNIDAD_DOCUMENTOS — documentos requeridos por dignidad
+
+Geografía electoral:
+
+T_CANTON, T_JUNTA — organización territorial
+T_CIRCUNSCRIPCION_CANTON, T_CIRCUNSCRIPCION_PROVINCIA — circunscripciones electorales
+
+Proceso de votación:
+
+T_CREDENCIAL, T_CREDENCIAL_MILITAR — credenciales de votantes
+T_TALONARIO, T_CONTENIDO_TALONARIO, T_CONTROL_TALONARIO — sistema de talonarios físicos
+T_LISTADO_DOCUMENTOS, T_LISTADO_DOCUMENTOS_GLOBAL — control de documentación
+
+Operaciones:
+
+T_OPERADOR, T_OPERADORES — usuarios del sistema
+T_MENU — menú de la aplicación
+T_LOTE — lotes de procesamiento
+T_ORDEN_DOCUMENTO, T_ORDEN_DOCUMENTOS — órdenes de generación
+
+Control y auditoría:
+
+T_COMPROBACION — verificaciones
+T_HISTORICO_CONTROL_TALONARIO — historial de control
+T_DOCUMENTO_REIMPRESOS — documentos reimpresiones
+T_BASE, T_BASE_INFO, T_BASE_SIMULACRO — bases de datos electorales y simulacros
+
+
+¿Qué hace exactamente este sistema?
+Gestiona todo el ciclo de generación e impresión de documentos electorales:
+Padrón electoral
+      ↓
+Asignación de dignidades y circunscripciones
+      ↓
+Generación de credenciales y talonarios
+      ↓
+Control de impresión y reimpresión
+      ↓
+Auditoría y comprobación
+Esto conecta directamente con tu proyecto GeneradorDeDocumentos_SDONBOSCO — ese sistema Java que estás trabajando es precisamente el generador de documentos que alimenta este esquema.
+
+Lo que probablemente viene con el próximo proyecto
+Tu jefa mencionó un proyecto parecido. Dado el patrón que veo, probablemente sea:
+
+Otro proceso electoral similar pero para una circunscripción o institución diferente
+O una versión actualizada para CNE2025R — que también aparece como esquema en la lista que viste antes
+
+Nota que en la lista de esquemas también viste CNE2023, CNE2024, CNE2025, CNE2025R — cada año tienen una versión nueva. El patrón es claro.
+
+Lo que te conviene estudiar de este esquema
+Con la estructura que ya tienes, te recomiendo enfocarte en entender:
+
+La relación entre T_PADRON y T_CREDENCIAL — es el corazón del sistema
+El flujo de T_TALONARIO — cómo se generan y controlan los documentos
+Las secuencias — 15 secuencias que controlan los IDs autogenerados
+
+¿Quieres que cuando tengas el script en casa te ayude a leerlo y entender las relaciones entre tablas con más detalle?

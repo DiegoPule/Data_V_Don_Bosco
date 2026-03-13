@@ -1,0 +1,26 @@
+OUTPUT\
+  └── MORONA_SANTIAGO\
+        └── SEVILLA_DON_BOSCO\
+              └── SAN_JUAN_BOSCO\
+                    └── ZONA_001\
+                          ├── PADRON\
+                          │     └── padron_jrv0001F.pdf
+                          ├── ACTAS_INSTALACION\
+                          │     └── acta_instalacion_p1_jrv0001F.pdf
+                          ├── ACTAS_ESCRUTINIO\
+                          │     ├── acta_t1_alcaldes_jrv0001F.pdf
+                          │     └── acta_p1_concejales_jrv0001F.pdf
+                          ├── BORRADORES\
+                          │     └── borrador_alcaldes_jrv0001F.pdf
+                          ├── SOBRES\
+                          └── ETIQUETAS\
+
+
+CarpetaDocumentos
+
+PADRON                             2
+ACTAS_INSTALACION                  3, 4, 5
+BORRADORES                         6, 7
+ACTAS_ESCRUTINIO                   8, 9, 10, 11, 12, 13
+SOBRES_IDENTIFICATIVOS             14, 15
+ETIQUETAS                          1, 16, 17

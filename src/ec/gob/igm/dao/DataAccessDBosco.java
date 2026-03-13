@@ -1,3 +1,4 @@
+//Autor Diego Pule
 package ec.gob.igm.dao;
 
 import ec.gob.igm.model.Candidato;

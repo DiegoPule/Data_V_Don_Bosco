@@ -1,3 +1,4 @@
+// Autor Diego Pule
 package ec.gob.igm.model;
 
 public class Candidato {

@@ -1,4 +1,6 @@
 //Autor Diego Pule
+// Surface Sabado 
+// muy bien gato
 package ec.gob.igm.dao;
 
 import ec.gob.igm.model.Candidato;

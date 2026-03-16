@@ -2,6 +2,19 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/PULE_DIEGO/Documents/NetBeansProjects/GeneradorSDBosco/src/ec/gob/igm/model/Circunscripcion.java</file>
+            <file>file:/C:/Users/PULE_DIEGO/Documents/NetBeansProjects/GeneradorSDBosco/src/ec/gob/igm/model/Parroquia.java</file>
+            <file>file:/C:/Users/PULE_DIEGO/Documents/NetBeansProjects/GeneradorSDBosco/src/ec/gob/igm/model/Canton.java</file>
+            <file>file:/C:/Users/PULE_DIEGO/Documents/NetBeansProjects/GeneradorSDBosco/src/ec/gob/igm/vista/Main.java</file>
+            <file>file:/C:/Users/PULE_DIEGO/Documents/NetBeansProjects/GeneradorSDBosco/src/ec/gob/igm/model/MJRV.java</file>
+            <file>file:/C:/Users/PULE_DIEGO/Documents/NetBeansProjects/GeneradorSDBosco/src/ec/gob/igm/model/Zona.java</file>
+            <file>file:/C:/Users/PULE_DIEGO/Documents/NetBeansProjects/GeneradorSDBosco/src/ec/gob/igm/vista/MainFrame.java</file>
+            <file>file:/C:/Users/PULE_DIEGO/Documents/NetBeansProjects/GeneradorSDBosco/src/ec/gob/igm/model/Candidato.java</file>
+            <file>file:/C:/Users/PULE_DIEGO/Documents/NetBeansProjects/GeneradorSDBosco/src/ec/gob/igm/model/Provincia.java</file>
+            <file>file:/C:/Users/PULE_DIEGO/Documents/NetBeansProjects/GeneradorSDBosco/src/ec/gob/igm/dao/DataAccessDBosco.java</file>
+            <file>file:/C:/Users/PULE_DIEGO/Documents/NetBeansProjects/GeneradorSDBosco/src/config.properties</file>
+            <file>file:/C:/Users/PULE_DIEGO/Documents/NetBeansProjects/GeneradorSDBosco/src/ec/gob/igm/model/Junta.java</file>
+        </group>
     </open-files>
 </project-private>
